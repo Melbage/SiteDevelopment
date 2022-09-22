@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style/main.css" media="screen" />
+    <title>ScordCard</title>
+</head>
+<body>
+    <header>
+        <h1>MGA Score card recorder </h1>
+    </header>
+    <form >
+        <fieldset id="properties" name="properties">
+            <label for="eventDate" id="eventDate">Date of Round:</label>
+            <input type="date" name="eventDate" id="eventDate"><br>
+            <label for="playerName" id="playerName">Player:</label>
+            <select name="playerName" id="playerName">
+                <option value="Tom ">Tom    </option>
+                <option value="Dick">Dick</option>
+                <option value="Harry">Harry</option>
+                </select>
+            <br>
+            <label for="courseName" id="courseName">Course Played</label>
+            <select name="courseName" id="courseName">
+                <option value="Wimbledon ">Wimbledon    </option>
+                <option value="Horton Park">Horton Park</option>
+                <option value="Cuddingtion">Cuddingtion</option>
+            </select>
+            <br>
+            <label for="major" id="major">Major</label>
+            <input type="radio" id="yesMajor" name="major" value="Yes" >
+            <label for="Major">Yes</label>
+            <input type="radio" id="notMajor" name="major" value="No" checked>
+            <label for="No">No</label>
+        </fieldset>
+        
+        <fieldset id="playerDetails" name="playerDetails">
+            <label for="playerName" id="playerName">Player:</label>
+            <select name="playerName" id="playerName">
+                <option value="Tom ">Tom    </option>
+                <option value="Dick">Dick</option>
+                <option value="Harry">Harry</option>
+                </select>
+            <br>
+            <label id="handicap">Handicap/ </label><label id="Position">Position: </label>
+            <input  type="number" id="handicap" name="handicap" min="0" max="28" required>
+            <input  type="number" id="Position" name="Position" min="0" max="28" required>
+            <fieldset>
+                <p>    Score	Putts	Fway	Ferrets</p>
+                <label id="hole1">1</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label id="hole2">2</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label id="hole3">3</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label id="hole4">4</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label id="hole5">5</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label id="hole6">6</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label id="hole7">7</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label id="hole8">8</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label id="hole9">9</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label id="hole10">10</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label id="hole11">11</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label id="hole12">12</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label id="hole13">13</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label id="hole14">14</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label id="hole15">15</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label id="hole16">16</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label id="hole17">17</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label id="hole18">18</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label id="Total">Total</label>
+                <input  type="number" id="Par1" name="Par1" min="1" max="6">
+                <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" >
+                <input  type="number" id="GrossScore1" name="GrossScore1" min="1" max="10" required>
+                <input  type="number" id="Points1" name="Points1" min="1" max="6" required>
+                <input  type="number" id="Putts1" name="Putts1" min="1" max="6" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input  type="number" id="Ferrets1" name="Ferrets1" min="0" max="6" value="0" required>
+                <select name="FairwayHit1" id="FairwayHit1" >
+                    <option value="Yes ">yes</option>
+                    <option value="No">No</option>
+                </select>
+                
+    
+            </fieldset>
+       
+       
+        </fieldset>
+        <fieldset id="courseDetails" name="courseDetails">
+            <p>Hole</p>
+            <label id="hole1">1</label>
+            <input  type="number" id="Par1" name="Par1" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+            <label id="hole1">2</label>
+            <input  type="number" id="Par2" name="Par2" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+            <label id="hole1">3</label>
+            <input  type="number" id="Par3" name="Par3" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+            <label id="hole1">4</label>
+            <input  type="number" id="Par4" name="Par4" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+            <label id="hole1">5</label>
+            <input  type="number" id="Par1" name="Par5" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+            <label id="hole1">6</label>
+            <input  type="number" id="Par1" name="Par1" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+            <label id="hole1">7</label>
+            <input  type="number" id="Par1" name="Par1" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+            <label id="hole1">8</label>
+            <input  type="number" id="Par1" name="Par1" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+            <label id="hole1">9</label>
+            <input  type="number" id="Par1" name="Par1" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+            <label id="hole1">10</label>
+            <input  type="number" id="Par1" name="Par1" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+            <label id="hole1">11</label>
+            <input  type="number" id="Par1" name="Par1" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+            <label id="hole1">12</label>
+            <input  type="number" id="Par1" name="Par1" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+            <label id="hole1">13</label>
+            <input  type="number" id="Par1" name="Par1" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+            <label id="hole1">14</label>
+            <input  type="number" id="Par1" name="Par1" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+            <label id="hole1">15</label>
+            <input  type="number" id="Par1" name="Par1" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+            <label id="hole1">16</label>
+            <input  type="number" id="Par1" name="Par1" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+            <label id="hole1">17</label>
+            <input  type="number" id="Par1" name="Par1" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+            <label id="hole1">18</label>
+            <input  type="number" id="Par1" name="Par1" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+            <label id="hole1">Total</label>
+            <input  type="number" id="Par1" name="Par1" min="1" max="6">
+            <input  type="number" id="StokeIndex1" name="StokeIndex1" min="1" max="18" > <br>
+           
+
+        </fieldset>
+           
+        
+    </form>
+</body>
+</html>

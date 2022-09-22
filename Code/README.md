@@ -9,3 +9,6 @@ used to display the css for site
 
 ## JavaScript
 used to hold any files created.  
+
+## HTML
+folder used to display and test HTML forms. 
